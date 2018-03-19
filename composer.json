@@ -1,0 +1,14 @@
+{
+    "name": "antriver/flarum-http-hooks",
+    "description": "Call some external APIs when things happen in your Flarum forum.",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^0.1.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "HTTP Hooks"
+        }
+    },
+    "minimum-stability": "beta"
+}
