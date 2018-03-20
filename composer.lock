@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8917a1b411b2c854b1fc3a900d958082",
+    "content-hash": "767d5b77b90b882bd7729e44c6d845d6",
     "packages": [
         {
             "name": "components/font-awesome",
@@ -3239,6 +3239,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.1"
+    },
     "platform-dev": []
 }

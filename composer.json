@@ -3,12 +3,23 @@
     "description": "Call some external APIs when things happen in your Flarum forum.",
     "type": "flarum-extension",
     "require": {
-        "flarum/core": "^0.1.0"
+        "flarum/core": "^0.1.0",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "extra": {
         "flarum-extension": {
-            "title": "HTTP Hooks"
+            "title": "HTTP Hooks",
+            "icon": {
+                "name": "share",
+                "backgroundColor": "##FD7272",
+                "color": "#fff"
+            }
         }
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "Antriver\\FlarumHttpHooks\\": "src/"
+        }
+    }
 }

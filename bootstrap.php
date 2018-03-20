@@ -1,13 +1,8 @@
 <?php
 
-use Flarum\Event\PostWasPosted;
+use Antriver\FlarumHttpHooks\Listener\NewPostListener;
 use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events) {
-    $events->listen(
-        PostWasPosted::class,
-        function (PostWasPosted $event) {
-            print_r($event);
-        }
-    );
+    $events->subscribe(NewPostListener::class);
 };
