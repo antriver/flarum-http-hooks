@@ -11,7 +11,7 @@
             "title": "HTTP Hooks",
             "icon": {
                 "name": "share",
-                "backgroundColor": "##FD7272",
+                "backgroundColor": "#FD7272",
                 "color": "#fff"
             }
         }
